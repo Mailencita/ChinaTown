@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    background-image: url(../img/fondo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    opacity: 1;
+    font-weight: bold;
+}
+
+body header h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0px;
+
+}
+
+.buscar{
+    display: flex;
+    margin-left: auto;
+    margin-right: 1px;
+}
+
+#LogoPrincipal {
+    width: 150px;
+}
+
+nav {
+    background-color: #F2DBAE;
+    padding: auto;
+    opacity: 70%;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+header ul li img {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#FotoLogoIndex {
+    display: none;
+}
+
+header button{
+    display: flex;
+    text-align: center;
+    background-color: #D9B991;
+    opacity: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: #F2F2F2;
+    padding: 100px;
+}
+
+footer {
+    display: flex;
+    background-color: #F2DBAE;
+    flex: 6;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+/**
+.RedSocial {
+    text-align: left;
+}
+**/
+
+
+footer h2 img {
+    width: 150px;
+}
+
+.SubFooter {
+    font-size: 15px;
+    text-align: center;
+}
